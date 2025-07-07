@@ -1,0 +1,36 @@
+.receipt-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 24px;
+  background: #fff;
+  border-radius: 16px;
+  font-family: 'Poppins', sans-serif;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+}
+
+.receipt-box {
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 12px;
+  background: #f9f9f9;
+}
+
+.receipt-container h2 {
+  text-align: center;
+  color: #2c2c2c;
+  margin-bottom: 24px;
+}
+
+.receipt-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.receipt-item span {
+  font-size: 16px;
+}
+
+hr {
+  margin: 16px 0;
+}
